@@ -5,7 +5,10 @@ A 7-day Hong Kong real-time weather forecast web application based on pure JavaS
 1. Make sure that you have set up your Node.js environment. If you have not, you can download the latest version from the official Node.js website (https://nodejs.org). Once installed, you can open your terminal and verify the installation by typing `node -v`
 2. Go to the directory in which all the cloned files are located, and type in `node app.js` in your terminal. If you've done so, you should get a console response in the form of `Server is running on port XXXX` where XXXX is your port number.
 3. Open up your favourite web browser (Chrome, MS Edge, Firefox, etc.), and paste `http://localhost:3000/`, replace `3000` with whatever was your port number displayed in your terminal.
-4. Shown below is the current real-time weather report of Hong Kong, detailing the
+4. Shown below is the current real-time weather report of Hong Kong, detailing the current temperature, humidity, UV level, rainfall index, your current location's air quality (please allow location access) and the 9-day forecast of Hong Kong, provided by HKO.
+![image](https://github.com/W-Edward/HK-Weather-Forecast/assets/36920869/c09090aa-8f6e-4c93-8077-451ad765e416)
+5. You have the choice of selecting a different weather station in Hong Kong to check a certain region's current information (temperature, rainfall and air quality)
+   ![image](https://github.com/W-Edward/HK-Weather-Forecast/assets/36920869/860f467f-e9fc-45ea-b204-d0d4ecd6aeb5)
 
 # All data is based on:
 
