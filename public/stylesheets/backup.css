@@ -1,0 +1,59 @@
+body{
+    margin: auto;
+    
+
+}
+
+header{
+    margin-top: 1rem;
+    width: 35%;
+    height: 200px;
+    margin-left: 15%;
+    margin-right: 0;
+    padding-right: 0;
+    background-image: url("images/blue-sky.jpg");
+    background-repeat: no-repeat;
+    
+}
+
+span{
+    font-family: Arial;
+}
+
+#hong-kong{
+    font-size: 2rem;
+    font-family: Arial;
+    margin-left: 1rem;
+    margin-bottom: 0;
+    padding-top: 1rem;
+    /* background: #000000; */
+}
+
+span#basic-info{
+
+    /* background: #000000; */
+}
+
+#basic-info img{
+    float: left;
+    margin-left: 1rem;
+}
+
+#basic-info span{
+    display: inline;
+    font-size: 2rem;
+}
+
+#other-info{
+    
+
+}
+
+
+
+
+
+
+
+
+

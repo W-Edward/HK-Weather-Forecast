@@ -1,0 +1,587 @@
+/*
+Name: Widjaja Edward Aryaguna , UID: 3036029703
+Note: Please extract the uploaded images.zip and data.zip into the current directory.
+*/
+
+
+body{
+    margin: auto;
+    display:flex;
+    flex-wrap: wrap;
+    align-self: flex-start;
+}
+
+#title{
+    width: 100%;
+    font-family: Arial;
+    margin-left: 12.5%;
+    margin-bottom: 0;
+}
+
+
+/* Header Block */
+
+header{
+    margin-top: 1rem;
+    width: 35%;
+    height: 200px;
+    margin-left: 12.5%;
+    margin-right: 2.5%;
+    padding-right: 0;
+    background-image: url("images/blue-sky.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+span{
+    font-family: Arial;
+}
+
+#hong-kong{
+    margin-top: 0;
+    font-size: 2rem;
+    font-family: Arial;
+    margin-left: 1rem;
+    margin-bottom: 0;
+    padding-top: 1rem;
+    /* background: #000000; */
+}
+
+#header-content{
+    display: flex;
+
+}
+
+#basic-info img{
+    float: left;
+    margin-left: 1rem;
+}
+
+#basic-info span{
+    font-size: 1.5rem;
+}
+
+
+.main-info{
+    margin-left: 2rem;
+    font-size: 3rem;
+
+}
+
+#warning{
+    margin-left: 0rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    background: #f05039;
+}
+
+#last-update{
+    float: right;
+    margin-right: 20px;
+}
+
+
+/* MyData Block*/
+
+#my-data{
+    margin-top: 1rem;
+    margin-right: 12.5%;
+    margin-left: 2.5%;
+    width: 35%;
+    background: #98FB98;
+    height: 200px;
+    font-family: Arial;
+    margin-bottom: 0;
+    
+}
+
+#my-location{
+    font-size: 2rem;
+    font-family: Arial;
+    margin-left: 1rem;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    padding-top: 1rem;
+}
+
+#location-info{
+    margin-top: 0.5rem;;
+    padding-top: 0;
+    margin-left: 1rem;
+    font-family: Arial;
+    font-size: 0.75rem;
+}
+
+#my-data-block{
+    margin-left: 1rem;
+}
+
+.my-data-info{
+    margin-left: 3rem;
+    font-size: 3.5rem;
+
+}
+
+#my-aqhi-pic{
+    margin-left: 2rem;
+}
+
+#my-aqhi-risk{
+    font-size: 1rem;
+}
+
+#my-aqhi{
+    font-size: 1.5rem;
+
+}
+
+.units{
+    margin-bottom: 0;
+}
+
+/* Three Blocks */
+
+#block-one{
+    width: 24%;
+    margin-top: 1rem;
+    margin-left: 12.5%;
+    background: #ADD8E6;
+    height: 200px;
+    font-family: Arial;
+}
+
+#block-two{
+    width: 24%;
+    margin-top: 1rem;
+    margin-left: 1.5%;
+    background: #FFFDD0;
+    height: 200px;
+    font-family: Arial;
+}
+
+#block-three{
+    width: 24%;
+    margin-top: 1rem;
+    margin-left: 1.5%;
+    background: #DCDCDC;
+    height: 200px;
+    font-family: Arial;
+}
+
+.two{
+    font-size: 2rem;
+    margin-left: 1rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    padding-bottom: 0;
+    padding-top: 1rem;
+
+}
+
+.labels{
+    margin-left: 1rem;
+
+}
+
+.options{
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+}
+
+#temperature-output{
+    font-size: 2rem;
+    margin-top: 1.25rem;
+    margin-left: 1.5rem;
+
+}
+
+#rain-output{
+    font-size: 2rem;
+    margin-top: 1.25rem;
+    margin-left: 1.5rem;
+
+}
+
+#rain-span{
+    font-size: 1rem;
+    margin-left: 0.25rem;
+
+}
+
+#aqhi-output-1{
+    font-size: 1.25rem;
+    margin-left: 1.5rem;
+    margin-top: 1.25rem;
+
+}
+
+#aqhi-output-2{
+    font-size: 1.25rem;
+    margin-left: 1.5rem;
+    margin-top: 0.25rem;
+
+}
+
+/* 9-day Weather Forecast */
+#nine-day{
+    width: 75%;
+    margin-top: 1rem;
+    margin-left: 12.5%;
+    background: #D1D1E5;
+    height: 200px;
+    font-family: Arial;
+
+}
+
+#nine-day-forecast{
+    font-size: 1.5rem;
+    font-family: Arial;
+    margin-left: 1rem;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    padding-top: 1rem;
+    
+}
+
+#forecast-data{
+    margin-top: 0.5rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    overflow-x: auto;
+}
+
+.forecast-image{
+    margin-top: 0.25rem;
+    margin-left: 0.5rem;
+}
+
+.PSR-image{
+    margin-left: 0.5rem;
+}
+
+.min-max{
+    font-size:0.75rem;
+    margin-left: 0.5rem;
+    margin-top: 0.25rem;
+
+}
+
+
+@media only screen and (max-width: 500px) {
+
+    body{
+        width: 100%;
+        display: initial;
+        font-size: 1rem;
+    }
+
+    #title{
+        width: 90%;
+        font-family: Arial;
+        margin-left: 5%;
+        margin-bottom: 0;
+        text-align: center;
+    }
+
+    header{
+        margin-top: 1rem;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        height: 200px;
+        padding-right: 0;
+        background-image: url("images/blue-sky.jpg");
+        background-repeat: no-repeat;
+        
+    }
+
+    #hong-kong{
+        margin-top: 0;
+        font-size: 1.5rem;
+        font-family: Arial;
+        margin-left: 1rem;
+        margin-bottom: 0;
+        padding-top: 1rem;
+        /* background: #000000; */
+    }
+    
+    #header-content{
+        display: flex;
+        margin-bottom: 1rem;
+    }
+    
+    #basic-info img{
+        float: left;
+        margin-left: 0.5rem;
+        width: 80px;
+        height: 80px;
+    }
+    
+    #basic-info span{
+        font-size: 1rem;
+        margin-left: 0rem;
+    }
+    
+    
+    .main-info{
+        margin-left: 0;
+        font-size: 2.5rem;
+
+    
+    }
+
+    #unit{
+        margin-right: 0;
+    }
+
+    #header-humidity-number{
+        margin-left: 1rem;
+
+    }
+
+    #header-hum{
+        width: 30px;
+        height: 30px;
+        margin-left:0rem;
+        margin-right: 1rem;
+    }
+
+    #div-header-info{
+        width: 25%;
+        /* background: #000000; */
+
+    }
+
+    #header-rain{
+        width: 30px;
+        height: 30px;
+        margin-left: 0rem;
+
+    }
+
+    #header-uv{
+        
+        width: 30px;
+        height: 30px;
+        margin-right: 1rem;
+        padding-right: 0;
+
+    }
+
+    #UV-index{
+        margin-left: 0.2rem;
+    }
+
+    #warning{
+        margin-left: 0rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        background: #f05039;
+    }
+    
+    #last-update{
+        font-size: 0.75rem;
+        float: right;
+        margin-right: 20px;
+    }
+    
+    
+    /* MyData Block*/
+    
+    #my-data{
+        margin-top: 0.5rem;
+        margin-left: 5%;
+        width: 90%;
+        background: #98FB98;
+        height: 200px;
+        font-family: Arial;
+        margin-bottom: 0;
+        
+    }
+    
+    #my-location{
+        font-size: 1.5rem;
+        font-family: Arial;
+        margin-left: 1rem;
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-bottom: 0;
+        padding-top: 1rem;
+    }
+    
+    #location-info{
+        margin-top: 0.5rem;;
+        padding-top: 0;
+        margin-left: 1rem;
+        font-family: Arial;
+        font-size: 0.75rem;
+        margin-bottom: 0;
+    }
+    
+    #my-data-block{
+        margin-top: 0.75rem;
+        margin-left: 1rem;
+    }
+    
+    .my-data-info{
+        margin-left: 1rem;
+        font-size: 2.5rem;
+    
+    }
+    
+    #my-rainfall{
+        margin-left: 1.5rem;
+
+    }
+
+    #my-aqhi-pic{
+        margin-left: 1rem;
+        width: 40px;
+        height: 40px;
+    }
+    
+    #my-aqhi-risk{
+        font-size: 0.5rem;
+    }
+
+    #my-aqhi{
+        font-size: 1rem;
+    
+    }
+    
+    .units{
+        margin-bottom: 0;
+    }
+    
+    /* Three Blocks */
+    
+    #block-one{
+        width: 90%;
+        margin-top: 0.5rem;
+        margin-left: 5%;
+        background: #ADD8E6;
+        height: 200px;
+        font-family: Arial;
+    }
+    
+    #block-two{
+        width: 90%;
+        margin-top: 0.5rem;
+        margin-left: 5%;
+        background: #FFFDD0;
+        height: 200px;
+        font-family: Arial;
+    }
+    
+    #block-three{
+        width: 90%;
+        margin-top: 0.5rem;
+        margin-left: 5%;
+        background: #DCDCDC;
+        height: 200px;
+        font-family: Arial;
+    }
+    
+    .two{
+        font-size: 2rem;
+        margin-left: 1rem;
+        margin-top: 0;
+        margin-bottom: 1rem;
+        padding-bottom: 0;
+        padding-top: 1rem;
+    
+    }
+    
+    .labels{
+        margin-left: 1rem;
+        display: none;
+    
+    }
+    
+    .options{
+        margin-left: 1rem;
+        margin-top: 0.5rem;
+        display: none;
+    }
+
+    .three-blocks-output{
+        display: none;
+    }
+    
+    /* 9-day Weather Forecast */
+    #nine-day{
+        width: 90%;
+        margin-top: 0.5rem;
+        margin-left: 5%;
+        background: #D1D1E5;
+        height: 200px;
+        font-family: Arial;
+    
+    }
+    
+    #nine-day-forecast{
+        font-size: 1.5rem;
+        font-family: Arial;
+        margin-left: 1rem;
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-bottom: 0;
+        padding-top: 1rem;        
+    } 
+    
+    #forecast-data{
+        margin-top: 0.25rem;
+        display: flex;
+        justify-content: flex-start;
+        overflow-x: auto;
+    }
+
+    .div-date
+    {
+        margin-left: 1rem;
+        margin-right: 1rem;
+        white-space: nowrap;
+
+    }
+
+    .forecast-week-date{
+        margin-left: 0.75rem;
+        font-size: 0.75rem;
+
+
+    }
+    
+    .forecast-image{
+        margin-top: 0.25rem;
+        margin-left: 0.75rem;
+        width: 40px;
+        height: 40px;
+    }
+    
+    .PSR-image{
+        margin-left: 0.75rem;
+        width: 40px;
+        height: 40px;
+        
+    }
+    
+    .min-max{
+        font-size:0.75rem;
+        margin-left: 0.75rem;
+        margin-top: 0.25rem;
+    
+    } 
+
+
+
+
+}
+
+
+
+
+
+
