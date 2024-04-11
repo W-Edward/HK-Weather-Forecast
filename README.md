@@ -13,17 +13,17 @@ A 7-day Hong Kong real-time weather forecast web application based on pure JavaS
 # All data is based on:
 
 # The HKO Current Weather Report
-Website: https://data.gov.hk/en-data/dataset/hk-hko-rss-current-weather-report
-API: https://data.weather.gov.hk/weatherAPI/opendata/weather.php?dataType=rhrread&lang=en
+Website: https://data.gov.hk/en-data/dataset/hk-hko-rss-current-weather-report \
+API: https://data.weather.gov.hk/weatherAPI/opendata/weather.php?dataType=rhrread&lang=en \
 Documentation: https://data.weather.gov.hk/weatherAPI/doc/HKO_Open_Data_API_Documentation.pdf
 
 # The HKO 9-day Weather Forecast
-Website: https://data.gov.hk/en-data/dataset/hk-hko-rss-9-day-weather-forecast
-API: https://data.weather.gov.hk/weatherAPI/opendata/weather.php?dataType=fnd&lang=en
+Website: https://data.gov.hk/en-data/dataset/hk-hko-rss-9-day-weather-forecast \
+API: https://data.weather.gov.hk/weatherAPI/opendata/weather.php?dataType=fnd&lang=en \
 Documentation: https://data.weather.gov.hk/weatherAPI/doc/HKO_Open_Data_API_Documentation.pdf
 
 # Hong Kong Weather Station Information (Static)
-API: https://ogciopsi.blob.core.windows.net/dataset/weather-station/weather-station-info.json
+API: https://ogciopsi.blob.core.windows.net/dataset/weather-station/weather-station-info.json \
 Documentation: https://ogciopsi.blob.core.windows.net/dataset/weather-station/weather-station-citydashboard-dataspec.pdf
 
 # OGCIO Air Quality Health Index of Individual Air Quality Monitoring Stations (Updated Hourly)
@@ -35,5 +35,7 @@ The dataset is prepared by Dr. Anthony Tam using the information provided by the
 API: aqhi-station-info.json
 
 The Reverse Geocoding API is provided by the Nominatim search engine for OpenStreetMap.
-Website: https://nominatim.org/release-docs/develop/api/Reverse/ 
-API: https://nominatim.openstreetmap.org/reverse?format=json&lat=<value>&lon=<value> &zoom=18&addressdetails=1
+Website: https://nominatim.org/release-docs/develop/api/Reverse/ \
+API: "https://nominatim.openstreetmap.org/reverse?format=json&lat=<value>&lon=<value> &zoom=18&addressdetails=1" Replace <value> with corresponding latitude and longitude.
+
+This project is part of an assignment assigned by Dr. Anthony Tam for the course COMP3322 of The University of Hong Kong.
