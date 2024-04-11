@@ -13,7 +13,7 @@ A 7-day Hong Kong real-time weather forecast web application based on pure JavaS
 # Extra Features:
 - This web application also provides a "mobile" design as shown below. You can test this web app on a "mobile device screen size" to get the same results below.
   ![image](https://github.com/W-Edward/HK-Weather-Forecast/assets/36920869/5da2bb42-d8fb-44cf-b3b6-bc3700470299)
-- Different Background images are used for different weather (raining, sunny) and times (day, noon, night). Any warnings from HKO will also be displayed (typhoons, amber rainstorms, etc.).
+- Different Background images are used for different weathers (raining, sunny) and times (day, noon, night). Any warnings from HKO will also be displayed (typhoons, amber rainstorms, etc.).
    ![image](https://github.com/W-Edward/HK-Weather-Forecast/assets/36920869/c858f124-ec3e-4563-a598-2875eabacb6b)
 
 
