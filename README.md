@@ -36,6 +36,6 @@ API: aqhi-station-info.json
 
 The Reverse Geocoding API is provided by the Nominatim search engine for OpenStreetMap.
 Website: https://nominatim.org/release-docs/develop/api/Reverse/ \
-API: "https://nominatim.openstreetmap.org/reverse?format=json&lat=<value>&lon=<value> &zoom=18&addressdetails=1" Replace <value> with corresponding latitude and longitude.
+API: `https://nominatim.openstreetmap.org/reverse?format=json&lat=<value>&lon=<value>&zoom=18&addressdetails=1` Replace `<value>` with corresponding latitude and longitude.
 
-This project is part of an assignment assigned by Dr. Anthony Tam for the course COMP3322 of The University of Hong Kong.
+Note: This project is part of an assignment assigned by Dr. Anthony Tam for the course COMP3322 of The University of Hong Kong. Implementation and design is by yours truly :)
